@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "multilayer-networks-project"
+version = "0.1.0"
+description = ""
+authors = ["KaiErikNiermann <kai.niermann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+networkx = "^3.2.1"
+ipykernel = "^6.28.0"
+numpy = "^1.26.3"
+matplotlib = "^3.8.2"
+pandas = "^2.1.4"
+scipy = "^1.11.4"
+scikit-learn = "^1.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

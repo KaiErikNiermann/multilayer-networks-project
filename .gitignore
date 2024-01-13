@@ -4,3 +4,6 @@ paper/*.out
 paper/*.fdb_latexmk
 paper/*.fls
 paper/*.synctex.gz
+
+.venv 
+poetry.lock
